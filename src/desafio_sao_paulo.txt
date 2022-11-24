@@ -1,0 +1,23 @@
+ db.estados.insert ({
+    nome: "São Paulo",
+    sigla: "SP",
+    regiao: "Sudeste",
+ cidades: [{
+    _id: ObjectId(),
+    nome: "Campinas",
+    area: 785.7,
+    prefeito: "Jonas Donizette",
+    populacao: 1325000,
+ }, {
+    _id: ObjectId(),
+    nome: "Guarulhos",
+    populacao: 1081000,
+ }, {
+    _id: ObjectId(),
+    nome: "sorocaba",
+    distanciaCapital: 87,
+    populacao: 644919,
+ }]
+ })
+
+\\ desafio aqui era criar o estado são paulo e adicionar cidades com o id em cada cidade\\

@@ -1,0 +1,5 @@
+show dbs
+show collections
+db.estados.find() \\aqui no caso vc usa o db.<tabela sua>.find()\\
+db.help
+db.estados.count() \\ consultar quantos registros existem\\
